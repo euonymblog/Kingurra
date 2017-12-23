@@ -120,6 +120,10 @@ p {
   min-height: 100vh;
 }
 
+input, textarea {
+  border: solid 2px midnightblue;
+}
+
 /* This is the nav section */
 
 .nav a{
@@ -151,3 +155,18 @@ p {
 }
 
 /* This is the contact section */
+
+/* This is the gallery section */
+
+.photo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 40vh;
+  border: solid 2px midnightblue;
+  margin: 0 1% 0 1%;
+}
+
+.caption p {
+  font-size: 1rem;
+}
