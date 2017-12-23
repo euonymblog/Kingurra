@@ -65,6 +65,7 @@ text-align: center;
 
 .fa {
   color: #CD853F;
+  font-size: 3rem;
 }
 
 .sectionHeading {
@@ -113,6 +114,10 @@ p {
 
 .form h5 {
   text-align: right;
+}
+
+.page {
+  min-height: 100vh;
 }
 
 /* This is the nav section */
