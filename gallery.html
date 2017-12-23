@@ -1,0 +1,29 @@
+---
+layout: default
+title: Gallery
+description: Photos and videos of Kingurra
+keywords: Kingurra,
+---
+<h2>Photos</h2>
+
+<div class="gallerygrid grid">
+
+  {% for thing in page.photo limit:4 %}
+    <div class=" col-3 galleryphoto photo">
+
+    </div>
+  {% endfor %}
+
+</div>
+
+<h2>Videos</h2>
+
+<div class="gallerygrid grid">
+
+  {% for thing in page.video limit:4 %}
+    <div class=" col-3 galleryvideo">
+
+    </div>
+  {% endfor %}
+
+</div>

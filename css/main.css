@@ -1,0 +1,148 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  color: midnightblue;
+  /* background-color: #FFFBFB */
+  /*border: 1px solid pink;*/
+
+}
+
+/*This is the basic section*/
+
+h1, h2, h3, h4, a {
+  font-family: 'Jacques Francois', serif;
+  text-decoration: none;
+}
+
+h5, h6, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 1% 0 1% 0;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+h4, h5, h6 {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+/* This is the default section */
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.nextPage {
+font-size: 4rem;
+text-align: center;
+
+}
+
+.wrapper {
+  background-color: #FFFBFB;
+  margin: 5% 20% 5% 20%;
+  padding-bottom: 5%;
+}
+
+.fa {
+  color: #CD853F;
+}
+
+.sectionHeading {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.sectionSubHeading {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+p {
+  padding: 0 2% 0 2%;
+  margin: 0 1% 0 1%;
+}
+
+.sectionText {
+  min-height: 20vh;
+}
+
+.section {
+  margin-bottom: 3%;
+}
+
+.form {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  padding: 1%;
+
+}
+
+.field {
+  margin: 2% 5% 2% 5%;
+}
+
+.form button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  padding: 1%;
+  text-align: center;
+  margin: 0 45% 0 45%;
+  background-color: midnightblue;
+  color: white;
+}
+
+.form h5 {
+  text-align: right;
+}
+
+/* This is the nav section */
+
+.nav a{
+  font-size: 1.25rem;
+  color: white;
+}
+
+.nav {
+  background-color: transparent;
+}
+
+/* This is the title section */
+
+#title {
+  background-image: url('../images/kingurra_frontpage.png');
+  min-height: 100vh;
+}
+
+#title h1 {
+  padding-top: 10%;
+}
+
+/* This is the boat section */
+
+/* This is the history section */
+
+#history p {
+  margin-top: 1%;
+}
+
+/* This is the contact section */

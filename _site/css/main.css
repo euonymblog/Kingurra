@@ -1,0 +1,85 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  color: midnightblue;
+  /* background-color: #FFFBFB */
+  /*border: 1px solid pink;*/
+
+}
+
+/*This is the basic section*/
+
+h1, h2, h3, h4, a {
+  font-family: 'Jacques Francois', serif;
+  text-decoration: none;
+}
+
+h5, h6, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4, h5, h6 {
+  font-size: 1rem;
+}
+
+/* This is the default section */
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.nextPage {
+font-size: 4rem;
+text-align: center;
+
+}
+
+.wrapper {
+  background-color: #FFFBFB;
+  margin: 5% 20% 5% 20%;
+  padding-bottom: 5%;
+}
+
+.fa {
+  color: white;
+}
+
+/* This is the nav section */
+
+.nav a{
+  font-size: 1.25rem;
+  color: white;
+}
+
+.nav {
+  background-color: transparent;
+}
+
+/* This is the title section */
+
+#title {
+  background-image: url('../images/kingurra_frontpage.png');
+  min-height: 100vh;
+}
+
+#title h1 {
+  padding-top: 10%;
+}
+
+/* This is the boat section */

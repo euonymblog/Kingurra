@@ -1,0 +1,44 @@
+---
+layout: default
+title: Her People
+description: The people that have made Kingurra what she is today
+keywords: designer, crew, Kingurra, skipper
+---
+<h2>The Principals</h2>
+
+<div class="peoplegrid grid-spaceBetween">
+
+  {% for thing in page.photo %}
+    <div class=" col-3 peoplephoto photo">
+
+    </div>
+  {% endfor %}
+
+  {% for thing in page.text %}
+    <div class=" col-6 peopletext">
+
+    </div>
+  {% endfor %}
+
+</div>
+
+<h3>Current Crew</h3>
+
+<div class="peoplecrewgrid crew grid-spaceBetween">
+
+  {% for thing in page.crewphoto %}
+    <div class=" col-3 peoplecrewphoto photo">
+
+    </div>
+  {% endfor %}
+
+  {% for thing in page.crewname %}
+    <div class=" col-6 peoplecrewtext">
+
+    </div>
+  {% endfor %}
+
+</div>
+
+<h3>Be part of it</h3>
+<h4>Click <a href="contact.html">here</a> to join the Kingurra crew.</h4>
