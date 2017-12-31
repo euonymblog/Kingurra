@@ -21,18 +21,25 @@ h5, h6, p {
 
 h1 {
   font-size: 4rem;
+  text-align: center;
 }
 
 h2 {
   font-size: 3rem;
+  text-align: center;
+  margin: 1% 0 1% 0;
 }
 
 h3 {
   font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1%;
 }
 
 h4, h5, h6 {
   font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1%;
 }
 
 /* This is the default section */
@@ -57,7 +64,64 @@ text-align: center;
 }
 
 .fa {
+  color: #CD853F;
+  font-size: 3rem;
+}
+
+.sectionHeading {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.sectionSubHeading {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+p {
+  padding: 0 2% 0 2%;
+  margin: 0 1% 0 1%;
+}
+
+.sectionText {
+  min-height: 20vh;
+}
+
+.section {
+  margin-bottom: 3%;
+}
+
+.form {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  padding: 1%;
+
+}
+
+.field {
+  margin: 2% 5% 2% 5%;
+}
+
+.form button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  padding: 1%;
+  text-align: center;
+  margin: 0 45% 0 45%;
+  background-color: midnightblue;
   color: white;
+}
+
+.form h5 {
+  text-align: right;
+}
+
+.page {
+  min-height: 100vh;
+}
+
+input, textarea {
+  border: solid 2px midnightblue;
 }
 
 /* This is the nav section */
@@ -83,3 +147,35 @@ text-align: center;
 }
 
 /* This is the boat section */
+
+/* This is the history section */
+
+#history p {
+  margin-top: 1%;
+}
+
+/* This is the contact section */
+
+/* This is the gallery section */
+
+.photo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 40vh;
+  border: solid 2px midnightblue;
+  margin: 0 1% 0 1%;
+}
+
+.caption p {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+}
